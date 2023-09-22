@@ -1,0 +1,42 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Storefront</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Navbar content goes here -->
+  </nav>
+  <div id="display" class="container">
+    <!-- Product display area -->
+  </div>
+  <button id="cart-button" class="btn btn-primary">Cart</button>
+
+  <!-- Cart Modal -->
+  <div class="modal" id="cart-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Shopping Cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Cart items go here -->
+        </div>
+        <div class="modal-footer">
+          <p class="cart-total">Total: $0.00</p>
+          <button type="button" class="btn btn-primary">Purchase</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
